@@ -62,6 +62,7 @@ body {
   margin: 6px;
   cursor: pointer;
   transition: all 0.2s ease;
+  font-size:10px;
 }
 
 .animation-container {
