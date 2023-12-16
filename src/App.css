@@ -15,7 +15,10 @@ body {
   align-items: center;
   justify-content: center;
   animation: background-pulse 2s ease-in-out infinite;
-  position:fixed;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 @media (max-width: 968px) {
@@ -45,30 +48,7 @@ body {
   background-color: #30343c;
   color: #fff;
   border: none;
-  padding: 25px; 
-  border-radius: 10px; 
-  font-size: 18px; 
-  text-align: center;
-  animation: text-appear 2s ease-in-out;
-  border: 1px solid #059669;
 }
 
-.button-row button {
-  background-color: #40454f;
-  color: #fff;
-  border: 1px solid #047857;
-  padding: 25px; 
-  border-radius: 10px;
-  margin: 6px;
-  cursor: pointer;
-  transition: all 0.2s ease;
-  font-size:15px;
-}
 
-.animation-container {
-  color: rgb(255, 255, 255);
-  text-align: center;
-  display: center;
-  font-size: 14px; 
-}
 
