@@ -62,7 +62,7 @@ body {
   margin: 6px;
   cursor: pointer;
   transition: all 0.2s ease;
-  font-size:10px;
+  font-size:15px;
 }
 
 .animation-container {
@@ -72,6 +72,3 @@ body {
   font-size: 14px; 
 }
 
-.functions {
-  background-color: #020617;
-}
