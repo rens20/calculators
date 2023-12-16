@@ -1,4 +1,4 @@
-import Calculate from "./calculate.jsx";
+import Calculate from "./calculate";
 function App(){
   return <div><Calculate /></div>;
 }
